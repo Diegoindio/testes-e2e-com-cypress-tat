@@ -18,6 +18,6 @@ describe('CRUD', () => {
 
     cy.deleteNote(updatedNoteDescription)
     cy.wait('@getNotes')
-    
+
   })
 })
